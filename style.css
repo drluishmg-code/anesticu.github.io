@@ -1260,3 +1260,30 @@ p {
     border-radius: var(--radius-md);
   }
 }
+
+
+/* ===== Hero com screenshot real ===== */
+
+.hero-figure{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero-app-image{
+    width:min(430px, 95%);
+    height:auto;
+    display:block;
+
+    border-radius:42px;
+
+    box-shadow:
+        0 30px 70px rgba(0,0,0,.45),
+        0 10px 25px rgba(0,0,0,.25);
+
+    transition:transform .35s ease;
+}
+
+.hero-app-image:hover{
+    transform:translateY(-6px);
+}
